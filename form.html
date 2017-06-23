@@ -19,10 +19,10 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Colaborar</a>
           </li>
           <li class="nav-item">
@@ -46,6 +46,34 @@
         <hr class="my-4">
         <p>Completa todos los campos a continuación.</p>
       </div>
+
+      <form class="offset-md-2 col-md-8 my-5">
+        <h4>Completa esta información</h4>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Titulo</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa el titulo de tu aporte">
+          <small id="emailHelp" class="form-text text-muted">Debe ser concreto y no debe tener más de 60 caracteres.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleTextarea">Descripción</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">URL de Youtube</label>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon3">http://www.youtube.com/</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Twitter</label>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
 
     <div class="container">
